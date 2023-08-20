@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className='cabecalho'>
-      <Head>
+     
         
         <div className='menu'>
           <div className='menuprincipal'>
@@ -47,7 +47,7 @@ export default function Home() {
             </a>
             </div>
         </div>
-      </Head>
+   
       <main className={styles.main}>
         <About />
         <Services />

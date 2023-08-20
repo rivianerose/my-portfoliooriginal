@@ -1,5 +1,8 @@
+
+
 .meuresumo{
     margin-top: -30px;
+  height: 80vh;
   }
   .meuresumo ul {
     display: flex;
@@ -36,4 +39,5 @@
   text-align: center;
   width: 70%;
   margin:  0 auto;
+  cursor: pointer;
  }

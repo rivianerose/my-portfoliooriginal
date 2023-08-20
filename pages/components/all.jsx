@@ -15,57 +15,57 @@ export const All = () => {
      
     >
       <motion.img
-      src="/imagens/galeria/galeria8.jpg"
+      src="/imagens/meusprojetos/cleanpage.png"
         alt="Descrição da imagem"
         width={300}
         height={200}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.1 }}
+        whileHover={{ scale: 2.1, transition: { duration: 2 } }}
+        whileTap={{ scale: 0.3 }}
       />
 
 <motion.img
-      src="/imagens/galeria/galeria9.jpg"
+     src="/imagens/meusprojetos/redpage.png"
         alt="Descrição da imagem"
         width={300}
         height={200}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 2.1, transition: { duration: 2 } }}
         whileTap={{ scale: 0.9 }}
       />
 
 <motion.img
-      src="/imagens/galeria/galeria5.jpg"
+      src="/imagens/meusprojetos/londonparalax.png"
         alt="Descrição da imagem"
         width={300}
         height={200}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 2.1, transition: { duration: 2 } }}
         whileTap={{ scale: 0.9 }}
       />
 
 
 <motion.img
-      src="/imagens/galeria/galeria6.jpg"
+ src="/imagens/meusprojetos/cakepage.png"
         alt="Descrição da imagem"
         width={300}
         height={200}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 2.1, transition: { duration: 2 } }}
         whileTap={{ scale: 0.9 }}
       />
 
 <motion.img
-      src="/imagens/galeria/galeria3.jpg"
+      src="/imagens/meusprojetos/hikerpage.png"
         alt="Descrição da imagem"
         width={300}
         height={200}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 2.1, transition: { duration: 2 } }}
         whileTap={{ scale: 0.9 }}
       />
 
 <motion.img
-      src="/imagens/galeria/galeria4.jpg"
+      src="/imagens/meusprojetos/outdoors.png"
         alt="Descrição da imagem"
         width={300}
         height={200}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 2.1, transition: { duration: 2 } }}
         whileTap={{ scale: 0.9 }}
       />
     </motion.div>

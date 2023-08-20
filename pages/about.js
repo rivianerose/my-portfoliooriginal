@@ -25,7 +25,9 @@ src={eu}
 <div class={styles.sobre}>
 <h2> About Me </h2>
 <h1> Riviane Rose's Details</h1>
-<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit magnam, dolorem labore saepe hic magni excepturi voluptatibus quae fugit reiciendis veniam beatae consectetur aperiam ipsam blanditiis ducimus deserunt ad.</p>
+<p> 
+Hello, I'm Riviane Rose, a skilled web developer with an advanced post-degree education in web development. My expertise spans a variety of essential languages and technologies, including Next.js, JavaScript, HTML, CSS, PHP, MySQL, and Node.js.
+</p>
 
 <div class={styles.detalhes}>
 <div className={styles.detalhesdois}>

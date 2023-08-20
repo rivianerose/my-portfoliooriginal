@@ -11,6 +11,7 @@
 p {
   font-family: 'Poppins', sans-serif;
   color: rgb(122, 122, 122);
+  
 }
 a {
     color: #009e66;
@@ -18,6 +19,8 @@ a {
 .menu {
    background-image: url(../public/bg.jpg);
    height: 100vh;
+   display: block;
+   background-color: #009e670e;
 }
 .menuprincipal {
     display: flex;
@@ -25,9 +28,13 @@ a {
     background: linear-gradient(to right, rgba(39, 39, 39, 0.719), rgba(0, 0, 0, 0.822));
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+  position: fixed;
     color: #009e66;
-    
+    width: 100%;
+}
+
+.menuprincipal:hover{
+  background-color: rgb(0, 0, 0);
 }
 
 .menuprincipal h1, ul {
@@ -41,6 +48,7 @@ a {
 
 .menuprincipal li {
     display: inline-block;
+    flex-wrap: wrap;
     margin: 10px;
     cursor: pointer;
 }
@@ -55,10 +63,7 @@ a {
 .bio {
   display: block;
   margin: 0 auto;
-  width: 50%;
-position: relative;
-margin-top: -600px;
-margin-left: 200px;
+ text-align: center;
 color: white;
 
 }
@@ -66,17 +71,18 @@ color: white;
 .bio h1{
   font-size: 100px;
   text-align: center;
+ padding-top: 30vh;
 }
 .bio h2 {
   margin: 30px;
   font-size: 45px;
-  text-align: right;
+  
 }
 
 .bio h3 {
   font-size: 25px;
   margin-bottom: 20px;
-  text-align: right;
+
 }
 .bio button {
   background-color: #009e66;

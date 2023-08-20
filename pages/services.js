@@ -25,15 +25,15 @@ export const Services = () => {
                     src={dg}
                     />
                     <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Passionate UI/UX designer and proficient in creating intuitive user interfaces and seamless interactions that enhance user satisfaction. </p>
                 </div>
 
                 <div class={styles.box}>
                 <Image
                     src={dw}
                     />
-                    <h2>App Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h2>Web Development</h2>
+                    <p> Web developer with a passion for creating impactful online experiences, including Next.js, JavaScript, HTML, CSS, PHP, MySQL, and Node.js. </p>
                 
                 </div>
 
@@ -43,7 +43,7 @@ export const Services = () => {
                     />
                   
                     <h2>Forms</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p> Proficient in crafting forms that streamline information gathering and enhance user engagement. </p>
                 </div>
 
                 <div class={styles.box}>
@@ -51,7 +51,7 @@ export const Services = () => {
                     src={fotophp}
                     />
                     <h2>PHP </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Experienced PHP developer and proficient in creating efficient backend systems and database interactions that power seamless user experiences.</p>
                 </div>
 
 
@@ -59,16 +59,16 @@ export const Services = () => {
                 <Image
                     src={myjs}
                     />
-                    <h2>Javascript aplications</h2> 
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h2>MySQL</h2> 
+                    <p>Skilled in MySQL, I specialize in designing and managing databases that fuel dynamic web applications. </p>
                 </div>
 
                 <div class={styles.box}>
                 <Image
                     src={wd}
                     />
-                    <h2> Web Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <h2> Next JS</h2>
+                    <p>Passionate Next.js developer at the forefront of modern web development. Mastering server-side rendering and React, I craft high-performance websites. </p>
                 </div>
             </div>
 
